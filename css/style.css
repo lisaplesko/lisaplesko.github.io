@@ -134,7 +134,8 @@ a, a:hover {
   text-decoration: none;
 }
 
-.description:hover {
+.description:hover,
+a.mobile:hover {
   opacity: 1;
   -webkit-transition: opacity 0.6s;
      -moz-transition: opacity 0.6s;
@@ -142,6 +143,7 @@ a, a:hover {
        -o-transition: opacity 0.6s;
           transition: opacity 0.6s;
 }
+
 
 
 @media only screen and (max-width: 767px) {
