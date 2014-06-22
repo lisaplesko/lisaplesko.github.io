@@ -161,7 +161,9 @@ a.darkencss:hover p {
 
 @media only screen and (max-width: 767px) {
   body {
-    padding: 0 10px;
+    /*padding: 0 10px;*/
+    padding-left: 10px;
+    padding-right: 55px;
   }
   .attn {
     margin-bottom: 10px;
@@ -171,8 +173,8 @@ a.darkencss:hover p {
   }
   .logos {
     max-width: 50px;
-    position: absolute;
-    top: -10px;
+    position: fixed;
+    top: 15px;
     right: 5px;
     z-index: 10;
   }
