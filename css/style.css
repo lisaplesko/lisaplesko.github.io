@@ -112,9 +112,7 @@ img.icon:hover {
 }
 
 .profile-photo {
- /* border-radius: 25%;*/
   width: 200px;
-/*  opacity: .9;*/
 }
 
 a, a:hover {
@@ -177,11 +175,14 @@ a.darkencss:hover p {
     z-index: 10;
   }
   .icon {
-    margin-bottom: 10px;
+    margin-bottom: 8px !important;
   }
   .statement p {
-    font-size: 1em;
+    font-size: 1.25em;
     padding-right: 50px;
+  }
+  .profile-photo {
+    /*display: none;*/
   }
 }
 
