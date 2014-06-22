@@ -17,7 +17,8 @@ header {
   border-bottom: 1px solid rgba(235,235,235,.5);
   text-align: center;
   /*background-color: #ebebeb;*/
-  padding: 1em;
+  /*padding: 1em;*/
+  padding-top: 50px;
 }
 
 body {
@@ -45,9 +46,9 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.75em;
   line-height: 0.9;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   color: rgba(235,235,235,.8);
   font-family: "futura-pt", sans-serif;
   display: inline;
@@ -101,7 +102,7 @@ img.icon {
   width: 35px;
   margin: 0 5px;
   position: relative;
-  top: 5px;
+  top: 2px;
   opacity: .75;
   transition: opacity .5s;
   -webkit-transition: opacity .5s;
@@ -172,7 +173,7 @@ a.darkencss:hover p {
     max-width: 50px;
     position: absolute;
     top: -10px;
-    right: -10px;
+    right: 5px;
     z-index: 10;
   }
   .icon {
@@ -184,6 +185,9 @@ a.darkencss:hover p {
   }
   .profile-photo {
     /*display: none;*/
+  }
+  header {
+    padding: 20px 0;
   }
 }
 
