@@ -22,8 +22,8 @@ header {
 }
 
 body {
-  background-color: black;
-  background-image: url('../img/dark_flower3.jpg');
+  background-color: #1F2733;
+  /*background-image: url('../img/dark_flower3.jpg');*/
   background-size: cover;
   font-size: 100%;
   /*line-height: 1.5;*/
