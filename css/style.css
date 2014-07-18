@@ -22,7 +22,9 @@ header {
 }
 
 body {
-  background-color: #2e394b;
+  background-color: black;
+  background-image: url('../img/dark_flower3.jpg');
+  background-size: cover;
   font-size: 100%;
   /*line-height: 1.5;*/
   color: rgba(235,235,235,.8);
@@ -74,7 +76,7 @@ header p {
 }
 
 .project-wrapper {
-  background-image: url('../img/cellarage_one.png');
+  background-image: url('../img/wdi-hub.png');
   height: inherit;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,6 +175,7 @@ a.mobile:hover {
     padding-right: 50px;
   }
   .profile-photo {
+    /*width: 150px;*/
     /*display: none;*/
   }
   header {
