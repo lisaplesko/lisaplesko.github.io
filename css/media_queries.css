@@ -157,6 +157,7 @@ body:before {
   dd, dt {
     display: block;
     line-height: 1;
+    font-size: 14px;
   }
 }
 /*=======================
@@ -194,5 +195,11 @@ body:before {
     width: 2.2rem;
     height: 2.2rem;
     line-height: 2rem;
+  }
+  .portfolio {
+    padding-bottom: 1rem;
+  }
+  .portfolio_item {
+    padding-bottom: 1rem;
   }
 }
