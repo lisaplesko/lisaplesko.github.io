@@ -15,11 +15,7 @@ body:before {
 =========================*/
 
 @media screen and (max-width: 1400px) {
-/*
-  body:before {
-    content: "max-width: 1400px";
-  }
-*/
+
   .portfolio_caption p {
     font-size: 0.8rem;
   }
@@ -162,16 +158,12 @@ body:before {
     display: block;
     line-height: 1;
   }
+}
 /*=======================
    max-width: 320px
 =========================*/
 
 @media screen and (max-width: 480px) {
-/*
-  body:before {
-    content: "max-width: 320px";
-  }
-*/
   .lang_list,
   .lang_list a {
     font-size: 13px;
