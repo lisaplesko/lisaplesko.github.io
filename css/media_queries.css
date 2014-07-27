@@ -186,7 +186,7 @@ body:before {
     line-height: 2.2rem;
   }
   .portfolio_caption p {
-    font-size: 8px;
+    font-size: 12px;
   }
   .portfolio_caption ul li a {
     font-size: 1.5rem;
@@ -202,5 +202,8 @@ body:before {
   }
   .portfolio_item {
     padding-bottom: 1rem;
+  }
+  .skill_list {
+    margin-bottom: 2rem;
   }
 }
