@@ -104,6 +104,9 @@ body:before {
     height: 2.2rem;
     line-height: 2rem;
   }
+  .about_me h4 {
+    margin: 0 5%;
+  }
 }
 /*=======================
    max-width: 640px
@@ -163,7 +166,7 @@ body:before {
    max-width: 320px
 =========================*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 /*
   body:before {
     content: "max-width: 320px";
