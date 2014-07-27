@@ -174,7 +174,7 @@ body:before {
     font-size: 13px;
   }
   .header_title {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   .subheader_title {
     font-size: 1rem;
@@ -184,13 +184,13 @@ body:before {
     padding: 0;
     text-align: center;
     margin: 0;
-    width: 2.4rem;
+    width: 2rem;
     height: 2.5rem;
     line-height: 2.2rem;
   }
   .portfolio_caption p {
-    visibility: hidden;
-    font-size: 1px;
+/*    visibility: hidden;
+    font-size: 1px;*/
   }
   .portfolio_caption ul li a {
     font-size: 1.5rem;
