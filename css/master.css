@@ -20,6 +20,7 @@ a {
 h1 {
   font-weight: 400;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -66,6 +67,10 @@ img.company-logo {
   position: relative;
 }
 
+.no-logo {
+  margin-left: 40px;
+}
+
 img.trex {
   right: 3px;
 }
@@ -105,17 +110,61 @@ img.tracs {
   color: white;
 }
 
+.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 400px) {
   .share_icons {
     position: relative;
+    top: -15px;
+    left: -35px;
   }
 
-  h2 {
-    font-size: 18px;
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  h1 {
+    text-transform: none;
+    margin-bottom: 5px;
+    /*color: white;*/
+  }
+
+  h2.mobile {
+    display: none;
   }
 
   .experience {
     font-size: 14px;
+  }
+
+  li.mobile {
+    font-size: 18px;
+    line-height: 0.75;
+  }
+
+  .mobile.co {
+    font-size: 14px;
+    margin-bottom: 10px;
+    /*color: #2980b9;*/
+  }
+
+  .time-period.mobile {
+    margin-top: 20px;
+  }
+
+  img.company-logo {
+    max-width: 25px;
+    top: 9px;
+  }
+
+  img.trex {
+    top: 14px;
   }
 }
 
