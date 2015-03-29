@@ -114,7 +114,7 @@ img.tracs {
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 415px) {
   .share_icons {
     position: relative;
     top: -15px;
